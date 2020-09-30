@@ -1,0 +1,21 @@
+{
+    "name": "litt1e9bro/composerdemo",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "litt1e9bro",
+            "email": "1044908949@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Demo\\App\\":"src"
+        },
+        "files":[
+            "src/helper.php"
+        ]
+    }
+}
